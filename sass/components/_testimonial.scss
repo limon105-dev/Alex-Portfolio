@@ -1,0 +1,158 @@
+// ======== testimonial css start ========//
+#testimonil {
+    @include pgap(80px, 0px, 80px, 0);
+
+    .common-header {
+        position: relative;
+
+        h2 {
+            @include fonts($heading_color, 48px, 700, 'Noticia Text');
+            text-transform: capitalize;
+            line-height: 63px;
+        }
+
+        .testimonil-after {
+            position: absolute;
+            right: 68px;
+            bottom: -20px;
+        }
+    }
+
+    .tstimonial-wrapper {
+        padding-top: 130px;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            left: -67px;
+            bottom: -81px;
+            @include div-body(110%, 783px, $primary_bg);
+            z-index: -1;
+        }
+
+        .feedback-main-wrapper {
+            .feedback-wrapper {
+                @include pgap(50px, 0px, 0px, 80px);
+
+                .feedback-inner {
+                    position: relative;
+
+                    .feedback-after {
+                        position: absolute;
+                        left: -80px;
+                        top: -45px;
+                    }
+
+                    .feedback-text {
+                        padding-bottom: 30px;
+
+                        p {
+                            @include fonts($para_color, 24px, 400, 'Roboto');
+                            line-height: 34px;
+                        }
+                    }
+
+                    .feedback-person {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+
+                        .feedback-img {
+                            @include div-body(70px, 70px, transparent);
+                            object-fit: cover;
+                            overflow: hidden;
+                            border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -ms-border-radius: 50%;
+                            -o-border-radius: 50%;
+                        }
+
+                        .person-details {
+                            padding-left: 15px;
+
+                            h6 {
+                                @include fonts($heading_color, 20px, 700, 'Roboto');
+                                text-transform: capitalize;
+                                line-height: 20px;
+                            }
+
+                            p {
+                                @include fonts(#777777, 16px, 500, 'Roboto');
+                                line-height: 16px;
+                                padding-top: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .testimonial-button {
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            padding-left: 80px;
+
+            .button-left {
+                @include div-body(50px, 50px, #EFEFEF);
+                border: 1px solid #EFEFEF;
+                color: #AAAAAA;
+                cursor: pointer;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                text-align: center;
+                line-height: 50px;
+                transition: all linear .3s;
+                -webkit-transition: all linear .3s;
+                -moz-transition: all linear .3s;
+                -ms-transition: all linear .3s;
+                -o-transition: all linear .3s;
+
+                &:hover {
+                    background-color: transparent;
+                    border-color: $hover_color;
+
+                    i {
+                        color: $hover_color;
+                    }
+                }
+            }
+
+            .button-right {
+                @include div-body(50px, 50px, #EFEFEF);
+                border: 1px solid #EFEFEF;
+                color: #AAAAAA;
+                cursor: pointer;
+                margin-left: 20px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                text-align: center;
+                line-height: 50px;
+                transition: all linear .3s;
+                -webkit-transition: all linear .3s;
+                -moz-transition: all linear .3s;
+                -ms-transition: all linear .3s;
+                -o-transition: all linear .3s;
+
+                &:hover {
+                    background-color: transparent;
+                    border-color: $hover_color;
+
+                    i {
+                        color: $hover_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ======== testimonial css end ========//

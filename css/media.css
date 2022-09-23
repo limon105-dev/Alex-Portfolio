@@ -1,0 +1,1063 @@
+@media(min-width: 1400px) and (max-width: 1599px) {
+
+    /* =====banner part start==== */
+    #banner .banner-svg3 {
+        left: 320px;
+        bottom: 214px;
+    }
+
+    #banner .banner-svg5 {
+        right: 200px;
+    }
+}
+
+@media(min-width: 1200px) and (max-width: 1399px) {
+
+    /* =====banner part start==== */
+    #banner .banner-svg2 {
+        top: 110px;
+    }
+
+    #banner .banner-svg3 {
+        left: 273px;
+        bottom: 212px;
+    }
+
+    #banner .banner-svg5 {
+        right: 155px;
+    }
+
+    #banner .banner-svg6 {
+        top: 140px;
+        right: 418px;
+    }
+
+    #banner .banner-wrapper .banner-text h1 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* =====banner part end==== */
+
+    /* =====about part start==== */
+    #about .about-wrapper .common-header h2 {
+        padding-right: 0;
+    }
+
+    #about .about-wrapper .about-text p {
+        font-size: 16px;
+        padding-left: 70px;
+    }
+
+    /* =====about part end==== */
+
+    /* =====service part start==== */
+    #service .service-header .common-header .service-after {
+        right: 5px;
+    }
+
+    /* =====service part end==== */
+
+    /* =====blog part start==== */
+    #blog .common-header h2 {
+        font-size: 47px;
+        padding-right: 0;
+    }
+
+    #blog .blog-text p {
+        padding-right: 30px;
+    }
+
+    #blog .blog-counter .blog-project h2 {
+        font-size: 44px;
+        line-height: 55px;
+        padding-bottom: 7px;
+    }
+
+    #blog .blog-counter .blog-project p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #blog .blog-counter .blog-project {
+        width: 176px;
+        height: 160px;
+        padding-top: 25px;
+        padding-right: 18px;
+        padding-bottom: 25px;
+        padding-left: 18px;
+    }
+
+    #blog .blog-counter .blog-experienc h2 {
+        font-size: 44px;
+        line-height: 55px;
+        padding-bottom: 7px;
+    }
+
+    #blog .blog-counter .blog-experienc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #blog .blog-counter .blog-experienc {
+        width: 275px;
+        height: 175px;
+        padding-top: 25px;
+        padding-right: 18px;
+        padding-bottom: 25px;
+        padding-left: 18px;
+    }
+
+    #blog .blog-counter .blog-experienc {
+        width: 245px;
+        height: 160px;
+        padding-top: 25px;
+        padding-right: 18px;
+        padding-bottom: 25px;
+        padding-left: 18px;
+    }
+
+    #blog .blog-person:last-child {
+        padding-bottom: 0;
+    }
+
+    /* =====blog part end==== */
+
+    /* =====testimonil part start==== */
+    #testimonil .common-header .testimonil-after {
+        right: 31px;
+    }
+
+    #testimonil .tstimonial-wrapper::after {
+        height: 670px;
+        bottom: -70px;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper .feedback-inner .feedback-text p {
+        font-size: 21px;
+    }
+
+    /* =====testimonil part end==== */
+
+    /* =====project part start==== */
+    #project .common-header .project-after {
+        left: 122px;
+    }
+
+    /* =====project part end==== */
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    /* =====banner part start==== */
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    #banner .banner-wrapper .banner-text h1 {
+        font-size: 50px;
+        line-height: 70px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #banner .banner-wrapper .banner-text p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .banner-left-svg1 {
+        width: 125px;
+        height: 200px;
+    }
+
+    .banner-left-svg2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #banner .banner-svg2 {
+        left: 160px;
+        top: 120px;
+    }
+
+    #banner .banner-svg3 {
+        left: 184px;
+        bottom: 175px;
+    }
+
+    .banner-left-svg3 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .banner-right-svg1 {
+        width: 100px;
+        height: 180px;
+    }
+
+    .banner-right-svg2 {
+        width: 80px;
+        height: 80px;
+    }
+
+    #banner .banner-svg5 {
+        right: 105px;
+        bottom: 160px;
+    }
+
+    .banner-right-svg3 {
+        width: 22px;
+        height: 22px;
+    }
+
+    #banner .banner-svg6 {
+        top: 133px;
+        right: 321px;
+    }
+
+    /* =====banner part end==== */
+
+    /* =====service part start==== */
+    #about {
+        padding-top: 150px;
+    }
+
+    #about .about-wrapper .common-header h2 {
+        font-size: 41px;
+        padding-right: 0;
+    }
+
+    #about .about-wrapper .about-text p {
+        font-size: 15px;
+        padding-left: 10px;
+        line-height: 28px;
+    }
+
+    #service .service-header .common-header h2 {
+        font-size: 42px;
+        line-height: 63px;
+    }
+
+    #service .service-header .common-header .service-after {
+        right: -22px;
+    }
+
+    #about .about-wrapper::after {
+        bottom: -77px;
+        height: 340px;
+    }
+
+    #service .service-wrapper .service-item {
+        padding-top: 25px;
+        padding-right: 7px;
+        padding-bottom: 25px;
+        padding-left: 7px;
+    }
+
+    #service .service-wrapper .service-item .service-text {
+        padding-top: 25px;
+    }
+
+    #service .service-wrapper .service-mid .service-text {
+        padding-top: 7px !important;
+    }
+
+    #service .service-wrapper .service-item .service-text p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 10px;
+        padding-left: 0;
+    }
+
+    #service .service-wrapper .service-right .service-text {
+        padding-top: 14px !important;
+    }
+
+    /* =====service part end==== */
+
+    /* =====blog part start==== */
+    #blog {
+        padding-bottom: 40px;
+    }
+
+    #blog .common-header h2 {
+        font-size: 39px;
+        padding-right: 0;
+        line-height: 50px;
+    }
+
+    #blog .common-header .blog-after {
+        left: 110px;
+    }
+
+    #blog .blog-text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+
+    #blog .blog-counter .blog-project p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    #blog .blog-counter .blog-project {
+        width: 150px;
+        height: 147px;
+        padding-top: 15px;
+        padding-right: 12px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    #blog .blog-counter .blog-project h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 10px;
+    }
+
+    #blog .blog-counter .blog-experienc h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 10px;
+    }
+
+    #blog .blog-counter .blog-experienc p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    #blog .blog-counter .blog-experienc {
+        width: 203px;
+        height: 147px;
+        padding-top: 15px;
+        padding-right: 12px;
+        padding-bottom: 15px;
+        padding-left: 12px;
+    }
+
+    #blog .blog-person {
+        padding-bottom: 30px;
+    }
+
+    #blog .blog-person .person-identy p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #blog .blog-person .person-identy h3 {
+        font-size: 35px;
+        line-height: 28px;
+        padding-top: 9px;
+    }
+
+    /* =====blog part end==== */
+
+    /* =====testimonil part start==== */
+    #testimonil {
+        padding-top: 40px;
+    }
+
+    #testimonil .common-header h2 {
+        font-size: 47px;
+    }
+
+    #testimonil .common-header .testimonil-after {
+        right: -10px;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper .feedback-inner .feedback-text p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    #testimonil .tstimonial-wrapper::after {
+        bottom: -75px;
+        height: 590px;
+    }
+
+    /* =====testimonil part end==== */
+
+    /* =====project part start==== */
+    #project .common-header h2 {
+        font-size: 46px;
+    }
+
+    #project .common-header .project-after {
+        left: 80px;
+    }
+
+    /* =====project part end==== */
+
+    /* =====footer part start==== */
+    #footer h2 a {
+        font-size: 43px;
+    }
+
+    /* =====footer part start==== */
+
+    /* =====copyright part start==== */
+    .copyright .copyright-text p {
+        font-size: 14px;
+    }
+
+    /* =====copyright part end==== */
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+    /* =====banner part start==== */
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #banner .banner-svg1 {
+        display: none;
+    }
+
+    #banner .banner-svg2 {
+        display: none;
+    }
+
+    #banner .banner-svg3 {
+        display: none;
+    }
+
+    #banner .banner-svg4 {
+        display: none;
+    }
+
+    #banner .banner-svg5 {
+        display: none;
+    }
+
+    #banner .banner-svg6 {
+        display: none;
+    }
+
+    #banner .banner-wrapper .banner-text h1 {
+        font-size: 60px;
+        line-height: 68px;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+
+    #banner .banner-wrapper .banner-text p {
+        font-size: 17px;
+        line-height: 28px;
+        padding-bottom: 25px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* =====banner part end==== */
+
+    /* =====partner part start==== */
+    #partner .partner-after {
+        display: none;
+    }
+
+    .text-center {
+        margin-bottom: 20px;
+    }
+
+    /* =====partner part end==== */
+
+    /* =====about part start==== */
+    #about {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    #about .about-wrapper .common-header h2 {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #about .about-wrapper .about-text p {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #about .about-wrapper::after {
+        display: none;
+    }
+
+    /* =====about part end==== */
+    /* =====service part start==== */
+    #service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #service .service-header {
+        padding-bottom: 20px;
+    }
+
+    #service .service-header .common-header .service-after {
+        right: 130px;
+    }
+
+    #service .service-wrapper::after {
+        display: none;
+    }
+
+    #service .service-wrapper .service-right {
+        margin-top: 30px;
+    }
+
+    /* =====service part end==== */
+
+    /* =====blog part start==== */
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #blog .common-header h2 {
+        padding-right: 50px;
+    }
+
+    #blog .common-header .blog-after {
+        left: 7px;
+    }
+
+    #blog .blog-counter .blog-project {
+        margin-bottom: 20px;
+    }
+
+    /* =====blog part end==== */
+
+    /* =====testimonil part start==== */
+    #testimonil {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #testimonil .common-header .testimonil-after {
+        right: 145px;
+    }
+
+    #testimonil .tstimonial-wrapper {
+        padding-top: 70px;
+    }
+
+    #testimonil .tstimonial-wrapper::after {
+        left: -48px;
+        bottom: -50px;
+        height: 540px;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper .feedback-inner .feedback-text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    #testimonil .tstimonial-wrapper .testimonial-button {
+        padding-left: 80px;
+    }
+
+    /* =====testimonil part end==== */
+
+    /* =====project part start==== */
+    #project .common-header .project-after {
+        left: 200px;
+    }
+
+    /* =====project part end==== */
+}
+
+
+@media(min-width: 576px) and (max-width: 767px) {
+
+    /* =====banner part start==== */
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #banner .banner-wrapper .banner-text h1 {
+        font-size: 49px;
+        line-height: 55px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    #banner .banner-svg1 {
+        display: none;
+    }
+
+    #banner .banner-svg2 {
+        display: none;
+    }
+
+    #banner .banner-svg3 {
+        display: none;
+    }
+
+    #banner .banner-svg4 {
+        display: none;
+    }
+
+    #banner .banner-svg5 {
+        display: none;
+    }
+
+    #banner .banner-svg6 {
+        display: none;
+    }
+
+    #banner .banner-wrapper .banner-text p {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+
+    /* =====banner part end==== */
+
+    /* =====partner part start==== */
+    #partner .partner-after {
+        display: none;
+    }
+
+    .text-center {
+        margin-bottom: 20px;
+    }
+
+    /* =====partner part end==== */
+
+    /* =====about part start==== */
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #about .about-wrapper .common-header h2 {
+        padding-right: 0;
+        text-align: center;
+        font-size: 47px;
+        line-height: 55px;
+    }
+
+    #about .about-wrapper .about-text p {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #about .about-wrapper::after {
+        display: none;
+    }
+
+    /* =====about part end==== */
+
+    /* =====service part start==== */
+    #service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #service .service-header {
+        padding-bottom: 20px;
+    }
+
+    #service .service-wrapper::after {
+        display: none;
+    }
+
+    /* =====service part end==== */
+
+    /* =====blog part start==== */
+    #blog {
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+
+    #blog .common-header h2 {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #blog .blog-text p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #blog .blog-counter {
+        margin-bottom: 20px;
+    }
+
+    #blog .blog-person .person-identy {
+        text-align: center;
+    }
+
+    /* =====blog part end==== */
+
+    /* =====testimonil part start==== */
+    #testimonil {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #testimonil .tstimonial-wrapper {
+        padding-top: 60px;
+    }
+
+    #testimonil .tstimonial-wrapper::after {
+        display: none;
+    }
+
+    .testimonial-main {
+        margin-bottom: 25px;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper .feedback-inner .feedback-person {
+        justify-content: center;
+    }
+
+    #testimonil .tstimonial-wrapper .testimonial-button {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    /* =====testimonil part end==== */
+
+    /* =====project part start==== */
+    #project {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #project .common-header .project-after {
+        left: 110px;
+    }
+
+    #project .project-wrapper .col-lg-6:nth-child(3) .project-item,
+    #project .project-wrapper .col-lg-6:nth-child(2) .project-item {
+        margin-top: 30px;
+    }
+
+    /* =====project part end==== */
+}
+
+@media(max-width: 575px) {
+
+    /* =====navbar part start==== */
+    .navbar-expand-lg {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* =====navbar part start==== */
+
+    /* =====banner part start==== */
+    #banner {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    #banner .banner-svg1 {
+        display: none;
+    }
+
+    #banner .banner-svg2 {
+        display: none;
+    }
+
+    #banner .banner-svg3 {
+        display: none;
+    }
+
+    #banner .banner-svg4 {
+        display: none;
+    }
+
+    #banner .banner-svg5 {
+        display: none;
+    }
+
+    #banner .banner-svg6 {
+        display: none;
+    }
+
+    #banner .banner-wrapper .banner-text {
+        padding-top: 15px;
+    }
+
+    #banner .banner-wrapper .banner-text h3 {
+        font-size: 20px;
+    }
+
+    #banner .banner-wrapper .banner-text h1 {
+        font-size: 48px;
+        line-height: 60px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #banner .banner-wrapper .banner-text p {
+        font-size: 17px;
+        line-height: 26px;
+        padding-bottom: 25px;
+
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* =====banner part start==== */
+
+    /* =====partner part start==== */
+    #partner .partner-after {
+        display: none;
+    }
+
+    .partner-item {
+        padding-bottom: 20px;
+    }
+
+    /* =====partner part end==== */
+
+    /* =====about part start==== */
+    #about {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    #about .about-wrapper .common-header h2 {
+        font-size: 40px;
+        line-height: 45px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .about-text {
+        padding-top: 30px;
+    }
+
+    #about .about-wrapper .about-text p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #about .about-wrapper::after {
+        display: none;
+    }
+
+    /* =====about part end==== */
+
+    /* =====service part start==== */
+    #service {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    #service .service-header {
+        padding-bottom: 30px;
+    }
+
+    #service .service-header .common-header h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #service .service-header .common-header .service-after {
+        display: none;
+    }
+
+    #service .service-wrapper::after {
+        display: none;
+    }
+
+    #service .service-wrapper .service-item {
+        margin-bottom: 20px;
+    }
+
+    /* =====service part end==== */
+
+    /* =====blog part start==== */
+    #blog {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #blog .common-header h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #blog .common-header .blog-after {
+        display: none;
+    }
+
+    #blog .blog-text {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    #blog .blog-text p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #blog .blog-counter {
+        justify-content: center;
+    }
+
+    #blog .blog-counter .blog-project {
+        margin-bottom: 20px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #blog .blog-counter .blog-experienc {
+        text-align: center;
+    }
+
+    #blog .blog-person {
+        padding-bottom: 20px;
+    }
+
+    #blog .blog-person .person-identy p {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #blog .blog-person .person-identy h3 {
+        text-align: center;
+    }
+
+    #blog .blog-person .person-location {
+        justify-content: center;
+    }
+
+    /* =====blog part end==== */
+
+    /* =====testimonil part start==== */
+    #testimonil {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #testimonil .common-header h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #testimonil .common-header .testimonil-after {
+        display: none;
+    }
+
+    #testimonil .tstimonial-wrapper {
+        padding-top: 35px;
+    }
+
+    .testimonial-main {
+        margin-bottom: 20px;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper .feedback-inner .feedback-after {
+        display: none;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper .feedback-inner .feedback-text p {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    #testimonil .tstimonial-wrapper .feedback-main-wrapper .feedback-wrapper .feedback-inner .feedback-person {
+        justify-content: center;
+    }
+
+    #testimonil .tstimonial-wrapper .testimonial-button {
+        margin-top: 25px;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    #testimonil .tstimonial-wrapper::after {
+        display: none;
+    }
+
+    /* =====testimonil part end==== */
+
+    /* =====project part start==== */
+    #project {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #project .common-header h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #project .common-header .project-after {
+        display: none;
+    }
+
+    #project .project-wrapper {
+        padding-top: 20px;
+    }
+
+    .project-inner {
+        margin-top: 20px;
+    }
+
+    /* =====project part end==== */
+
+    /* =====footer part start==== */
+    #footer {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    #footer h5 {
+        padding-bottom: 30px;
+    }
+
+    #footer h2 a {
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    #footer .footer-list {
+        margin-top: 25px;
+    }
+
+    /* =====footer part end==== */
+
+    /* =====copyright part start==== */
+    .copyright .copyright-text {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .copyright .copyright-text p {
+        line-height: 20px;
+    }
+
+    /* =====copyright part end==== */
+}

@@ -1,0 +1,62 @@
+// ======== footer css start ========//
+#footer {
+    @include pgap(40px, 0, 85px, 0);
+
+    h5 {
+        @include fonts($hover_color, 24px, 700, 'Noticia Text');
+        text-transform: capitalize;
+        line-height: 24px;
+        padding-bottom: 50px
+    }
+
+    p {
+        a {
+            @include fonts($para_color, 18px, 400, 'Roboto');
+            line-height: 18px;
+        }
+    }
+
+    h2 {
+        @include mgap(10px, 0, 22px, 0);
+
+        a {
+            @include fonts($heading_color, 48px, 700, 'Noticia Text');
+            text-transform: capitalize;
+            line-height: 58px;
+        }
+    }
+
+    .footer-list {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            @include mgap(0, 15px, 0, 15px);
+
+            a {
+                @include fonts($heading_color, 14px, 400, 'Roboto');
+            }
+        }
+    }
+
+}
+
+// ======== footer css end ========//
+
+// ======== copyright css start ========//
+.copyright {
+    border-top: 1px solid #E8E8E8;
+
+    .copyright-text {
+        @include pgap(50px, 0, 54px, 0);
+
+        p {
+            @include fonts($para_color, 15px, 400, 'Roboto');
+        }
+    }
+}
+
+// ======== copyright css start ========//

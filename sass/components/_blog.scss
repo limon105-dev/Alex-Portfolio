@@ -1,0 +1,116 @@
+// ======== blog css start ========//
+#blog {
+    @include pgap(80px, 0px, 80px, 0);
+
+    .common-header {
+        position: relative;
+
+        h2 {
+            @include fonts($heading_color, 48px, 700, 'Noticia Text');
+            text-transform: capitalize;
+            line-height: 63px;
+            padding-right: 70px;
+        }
+
+        .blog-after {
+            position: absolute;
+            left: 137px;
+            bottom: -20px;
+        }
+    }
+
+    .blog-text {
+        border-bottom: 1px solid #E2E2E2;
+        @include pgap(45px, 0, 30px, 0);
+
+        p {
+            @include fonts($para_color, 18px, 400, 'Roboto');
+            line-height: 28px;
+            padding-right: 50px;
+        }
+    }
+
+    .blog-counter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+
+        .blog-project {
+            @include div-body(205px, 175px, $primary_bg);
+            @include pgap(30px, 25px, 30px, 25px);
+
+            h2 {
+                @include fonts($hover_color, 48px, 700, 'Noticia Text');
+                line-height: 63px;
+                padding-bottom: 10px
+            }
+
+            p {
+                @include fonts($para_color, 18px, 400, 'Roboto');
+                line-height: 26px;
+            }
+        }
+
+        .blog-experienc {
+            @include div-body(275px, 175px, $primary_bg);
+            @include pgap(30px, 25px, 30px, 25px);
+
+            h2 {
+                @include fonts($hover_color, 48px, 700, 'Noticia Text');
+                line-height: 63px;
+                padding-bottom: 10px
+            }
+
+            p {
+                @include fonts($para_color, 18px, 400, 'Roboto');
+                line-height: 26px;
+            }
+        }
+    }
+
+    .blog-person {
+        padding-bottom: 43px;
+
+        .person-identy {
+            padding-bottom: 25px;
+            border-bottom: 1px solid #E2E2E2;
+
+            p {
+                @include fonts(#555555, 24px, 400, 'Noticia Text');
+                line-height: 24px;
+            }
+
+            h3 {
+                @include fonts($heading_color, 36px, 700, 'Noticia Text');
+                line-height: 36px;
+                padding-top: 10px;
+            }
+        }
+
+        .person-location {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+
+            .date {
+                p {
+                    @include fonts(#777777, 16px, 400, 'Roboto');
+                    line-height: 26px;
+                }
+            }
+
+            .location {
+                p {
+                    @include fonts(#777777, 16px, 400, 'Roboto');
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
+
+// ======== blog css end ========//
